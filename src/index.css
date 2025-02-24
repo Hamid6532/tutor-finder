@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+header{
+  background-color: white;
+  border: black;
+}
+.logo{
+  color: rgb(23, 23, 231);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.ul-head{
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+.ul-head >li a{
+  text-decoration: none;
+  padding: 10px;
+}
+.div-head{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.h1-hero{
+    color: blue;
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 50px;
+}
+.p-hero{
+  font-weight: 10;
+  margin: 0px;
+}
+.h1-how{
+  color: rgb(116, 116, 239);
+}
+h2, .p1-how{
+  font-weight: 10;
+  margin: 5px;
+}
+.ul1{
+  list-style: none;
+}
+.ul1 >li a{
+  text-decoration: none;
+}
+.ul1 >li{
+  display: flex;
+}
+.ul2{
+  list-style: none;
+  margin-right: 20px;
+}
+.ul2 >li{
+  display: flex;
+}
+p{
+  font-weight: bold;
+  padding: 0px;
+  margin-bottom: 0px;
+
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.p1{
+  text-align: center;
+  margin-top: 0px;
+}
