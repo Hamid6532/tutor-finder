@@ -6,8 +6,9 @@ import SignUp from "../pages/SignUp";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "../Components/LandingPage";
 import TutorPage from "../pages/TutorPage";
-import DashBoard from "../pages/Dashboard";
+// import DashBoard from "../pages/Dashboard";
 import GigsDash from "../pages/GigsDash";
+import DashBoard from "@/pages/DashBoard";
 
 const router = createBrowserRouter([
   {
