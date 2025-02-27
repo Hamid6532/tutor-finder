@@ -1,5 +1,5 @@
 import React from "react";
-import { BookOpen, Code, Music, Globe, Calculator } from "lucide-react";
+import { BookOpen, Code, Music, Globe, Calculator, ChefHat, Dumbbell } from "lucide-react";
 
 export default function AcademicFocusSection() {
   const subjects = [
@@ -48,6 +48,12 @@ export default function AcademicFocusSection() {
         "Photography",
       ],
       color: "bg-indigo-50",
+    },
+    {
+      icon: <Dumbbell className="w-12 h-12 text-teal-700" />,
+      name: "Skills",
+      topics: ["Cooking", "Driving", "Sports & Fitness", "Design"],
+      color: "bg-green-50",
     },
   ];
 
@@ -120,11 +126,11 @@ export default function AcademicFocusSection() {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 mb-20 text-center">
           <p className="text-gray-600 mb-4">
             Need help with a subject not listed above?
           </p>
-          <button className="px-8 py-3 bg-teal-600 text-white hover:bg-teal-700 font-medium rounded-md transition duration-300 shadow-md">
+          <button className="mt-5 px-8 py-3 bg-teal-600 text-white hover:bg-teal-700 font-medium rounded-md transition duration-300 shadow-md">
             Explore All Subjects
           </button>
         </div>

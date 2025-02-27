@@ -53,11 +53,11 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Popular Subjects</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Mathematics</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">English & Literature</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Programming</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Web Development</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Science</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Foreign Languages</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Test Preparation</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Mathematics</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">Physics</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition duration-300">View All Subjects</a></li>
             </ul>
           </div>
