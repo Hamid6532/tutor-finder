@@ -6,12 +6,12 @@ export function FeatureHighlightsSection() {
     {
       icon: <Search className="w-10 h-10 text-teal-200" />,
       title: "Advanced Search",
-      description: "Find tutors based on subject, location, experience, availability, and reviews."
+      description: "Find tutors based on subject expertise, teaching style, skills, location, experience, availability, and reviews."
     },
     {
       icon: <Star className="w-10 h-10 text-teal-200" />,
       title: "Ratings & Reviews",
-      description: "Make informed choices with detailed feedback from previous students."
+      description: "Make informed choices with detailed feedback and testimonials from previous students."
     },
     {
       icon: <Calendar className="w-10 h-10 text-teal-200" />,
@@ -21,7 +21,7 @@ export function FeatureHighlightsSection() {
     {
       icon: <MessageSquare className="w-10 h-10 text-teal-200" />,
       title: "Communication Tools",
-      description: "Connect easily with in-app messaging, video calls, and secure file sharing."
+      description: "Connect easily with in-app messaging, high quality video calls, and secure file sharing."
     },
     {
       icon: <CreditCard className="w-10 h-10 text-teal-200" />,

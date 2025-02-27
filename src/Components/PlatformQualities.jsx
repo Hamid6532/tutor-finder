@@ -46,23 +46,23 @@ export default function PlatformQualitiesSection() {
               
               {/* Positioned text overlays */}
               <div className="absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-right">
-                <p className="text-xl font-semibold">Extensive</p>
-                <p className="text-xl font-semibold">Data</p>
+                <p className="text-xl font-semibold">Comprehensive</p>
+                <p className="text-xl font-semibold">Insights</p>
               </div>
               
               <div className="absolute top-1/4 right-1/4 transform translate-x-1/2 -translate-y-1/2 text-left">
-                <p className="text-xl font-semibold">Exceptional</p>
-                <p className="text-xl font-semibold">Support</p>
+                <p className="text-xl font-semibold">Unparalled</p>
+                <p className="text-xl font-semibold">Assistance</p>
               </div>
               
               <div className="absolute bottom-1/4 left-1/4 transform -translate-x-1/2 translate-y-1/2 text-right">
-                <p className="text-xl font-semibold">Expert</p>
-                <p className="text-xl font-semibold">Tutors</p>
+                <p className="text-xl font-semibold">Master</p>
+                <p className="text-xl font-semibold">Educators</p>
               </div>
               
               <div className="absolute bottom-1/4 right-1/4 transform translate-x-1/2 translate-y-1/2 text-left">
-                <p className="text-xl font-semibold">Effective</p>
-                <p className="text-xl font-semibold">Methodology</p>
+                <p className="text-xl font-semibold">Proven</p>
+                <p className="text-xl font-semibold">Strategies</p>
               </div>
             </div>
           </div>

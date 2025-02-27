@@ -2,6 +2,7 @@ import { Menu, XIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router";
 import Logo from "./Logo";
+import path from "path";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +17,9 @@ export default function Navbar() {
     { path: "/how-it-works", label: "How It Works" },
     { path: "/sign-in", label: "Sign In", highlight: false },
     { path: "/sign-up", label: "Sign Up", highlight: true },
+    { path: "/tutor-finder-page", label: "Tutor's Page"},
+    { path: "/dash-board-page", label: "DashBoard"},
+    { path: "/gigs-dash", label: "TutorFinderDashBoard"},
   ];
 
   return (
