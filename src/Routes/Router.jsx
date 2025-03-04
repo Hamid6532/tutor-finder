@@ -1,14 +1,13 @@
 import Home from "../pages/Home";
 import About from "../pages/About";
-import HowItWorks from "../pages/HowItWorks";
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "../Components/LandingPage";
 import TutorPage from "../pages/TutorPage";
-// import DashBoard from "../pages/Dashboard";
-import GigsDash from "../pages/GigsDash";
-import DashBoard from "@/pages/DashBoard";
+import LearnerPage from "@/pages/LearnerPage";
+import TutorBoard from "@/pages/TutorBoard";
+
 
 const router = createBrowserRouter([
   {
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/how-it-works",
-    element: <HowItWorks />,
-  },
-  {
     path: "/sign-in",
     element: <SignIn />,
   },
@@ -40,12 +35,12 @@ const router = createBrowserRouter([
     element: <TutorPage />,
   },
   {
-    path: "/dash-board-page",
-    element: <DashBoard />,
+    path: "/learner-page",
+    element: <LearnerPage />,
   },
   {
-    path: "/gigs-dash",
-    element: <GigsDash />,
+    path: "/tutor-board",
+    element: <TutorBoard />,
   },
 ]);
 

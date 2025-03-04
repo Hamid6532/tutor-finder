@@ -3,9 +3,7 @@ import AppContainer from './AppContainer'
 
 const HowItWorksPage = () => {
   return (
-    <AppContainer>
-
-    </AppContainer>
+      <h1 className='mt-20 mb-20'>Details still to be available</h1>
   )
 }
 

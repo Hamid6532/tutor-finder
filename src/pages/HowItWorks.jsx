@@ -5,6 +5,10 @@ import HowItWorksPage from "../Components/HowItWorksPage";
 
 export default function HowItWork() {
   return (
-   <HowItWorksPage />
+    <>
+    <Navbar />
+    <HowItWorksPage />
+    <Footer />
+   </>
   );
 }

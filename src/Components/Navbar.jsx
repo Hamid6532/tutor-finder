@@ -13,13 +13,12 @@ export default function Navbar() {
 
   const navItems = [
     { path: "/home", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/how-it-works", label: "How It Works" },
+    { path: "/about", label: "About Us" },
     { path: "/sign-in", label: "Sign In", highlight: false },
     { path: "/sign-up", label: "Sign Up", highlight: true },
-    { path: "/tutor-finder-page", label: "Tutor's Page"},
-    { path: "/dash-board-page", label: "DashBoard"},
-    { path: "/gigs-dash", label: "TutorFinderDashBoard"},
+    { path: "/tutor-finder-page", label: "Search a Tutor" },
+    { path: "/learner-page", label: "LearnerHub" },
+    { path: "/tutor-board" , label: "TutorHub" },
   ];
 
   return (
